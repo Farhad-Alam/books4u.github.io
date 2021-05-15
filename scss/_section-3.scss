@@ -1,0 +1,48 @@
+.section-3 {
+  padding-top: 10rem;
+  overflow: hidden;
+
+  .cover {
+    width: 100%;
+    height: 25rem;
+    background-image: url("../assets/pexels-photo-452738.jpeg");
+    background-size: 145%;
+    background-position: 40% 20%;
+    position: relative;
+
+    .container-text {
+      height: 100%;
+      width: 100%;
+      padding-top: 10rem;
+      color: whitesmoke;
+      background-color: rgba(0, 0, 0, 0.7);
+
+      h1 {
+        font-weight: bolder;
+        font-size: 3rem;
+        font-family: "New Tegomin", serif;
+      }
+    }
+  }
+
+  .cards {
+    position: relative;
+    top: -90px;
+  }
+
+  .col-md-3 {
+    text-align: center;
+    box-shadow: 1px 6px 40px -12px red;
+    margin-right: 1.5rem;
+    width: 18rem;
+    height: 11rem;
+
+    background-color: #fff;
+
+    span {
+      color: tomato;
+      font-size: 5rem;
+      font-weight: bold;
+    }
+  }
+}

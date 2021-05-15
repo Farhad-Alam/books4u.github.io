@@ -1,0 +1,52 @@
+.header {
+  .navbar-brand {
+    margin-left: 11rem;
+  }
+  .navbar-nav {
+    padding: 0.7rem 10rem 0 0;
+
+    .nav-item {
+      padding: 0 0.5rem;
+
+      .nav-link,
+      .nav-link .active {
+        color: white !important;
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.781) !important;
+        }
+      }
+    }
+    // nav dropdown strt
+    .dropdown {
+      position: relative;
+
+      .dropdown-content {
+        position: absolute;
+        background-color: black;
+        padding: 0.5rem 2rem;
+        visibility: hidden;
+
+        & .nav-link {
+          color: #fff !important;
+        }
+      }
+      &:hover .dropdown-content {
+        visibility: visible;
+      }
+    }
+  }
+
+  .col-md-5 {
+    font-family: "Roboto", sans-serif;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .btn:hover {
+      background-color: rgba(255, 255, 255, 0.781) !important;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

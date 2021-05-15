@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gradient {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 100%, #00d4ff 100%);
+}
+
+.header .navbar-brand {
+  margin-left: 11rem;
+}
+
+.header .navbar-nav {
+  padding: 0.7rem 10rem 0 0;
+}
+
+.header .navbar-nav .nav-item {
+  padding: 0 0.5rem;
+}
+
+.header .navbar-nav .nav-item .nav-link,
+.header .navbar-nav .nav-item .nav-link .active {
+  color: white !important;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover,
+.header .navbar-nav .nav-item .nav-link .active:hover {
+  color: rgba(255, 255, 255, 0.781) !important;
+}
+
+.header .navbar-nav .dropdown {
+  position: relative;
+}
+
+.header .navbar-nav .dropdown .dropdown-content {
+  position: absolute;
+  background-color: black;
+  padding: 0.5rem 2rem;
+  visibility: hidden;
+}
+
+.header .navbar-nav .dropdown .dropdown-content .nav-link {
+  color: #fff !important;
+}
+
+.header .navbar-nav .dropdown:hover .dropdown-content {
+  visibility: visible;
+}
+
+.header .col-md-5 {
+  font-family: "Roboto", sans-serif;
+}
+
+.header .col-md-5 h1 {
+  font-size: 3rem;
+}
+
+.header .col-md-5 .btn:hover {
+  background-color: rgba(255, 255, 255, 0.781) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.section-2 .col-md-4 img {
+  opacity: 0.8;
+}
+
+.section-2 .col-md-7 {
+  background-color: #fff;
+  padding: 8rem 5rem;
+  position: relative;
+  top: 4rem;
+  right: 6.5rem;
+  height: 37rem;
+}
+
+@media (max-width: 768px) {
+  .section-2 .col-md-7 {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-2 .col-md-7 {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
+
+.section-3 {
+  padding-top: 10rem;
+  overflow: hidden;
+}
+
+.section-3 .cover {
+  width: 100%;
+  height: 25rem;
+  background-image: url("../assets/pexels-photo-452738.jpeg");
+  background-size: 145%;
+  background-position: 40% 20%;
+  position: relative;
+}
+
+.section-3 .cover .container-text {
+  height: 100%;
+  width: 100%;
+  padding-top: 10rem;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section-3 .cover .container-text h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: "New Tegomin", serif;
+}
+
+.section-3 .cards {
+  position: relative;
+  top: -90px;
+}
+
+.section-3 .col-md-3 {
+  text-align: center;
+  box-shadow: 1px 6px 40px -12px red;
+  margin-right: 1.5rem;
+  width: 18rem;
+  height: 11rem;
+  background-color: #fff;
+}
+
+.section-3 .col-md-3 span {
+  color: tomato;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.section-4 .container-text {
+  font-family: "Original Surfer", cursive;
+}
+
+.section-4 .container-text h1 {
+  font-weight: bold;
+}
+
+.section-4 .row {
+  margin-top: 7rem;
+}
+
+@media (max-width: 992px) {
+  .section-4 .row .col-md-4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.section-4 .row .col-md-4 .card-body .card-title {
+  background-color: rgba(208, 241, 241, 0.199);
+  padding: 2rem 0;
+}
+
+.section-4 .row .col-md-4 .card-body .btn:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.section-4 .row .pricing {
+  background-color: rgba(208, 241, 241, 0.199);
+  border-top-left-radius: 350px;
+  border-top-right-radius: 350px;
+  padding: 5rem 0;
+}
+
+.section-4 .row .pricing span {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.section-4 .row .pricing .card-link {
+  border-radius: 150px;
+}
+
+.section-5 .btn {
+  border-radius: 300px;
+  padding: 0 2rem;
+}
+
+@media (max-width: 992px) {
+  .section-6 .col-md-4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.section-6 .col-md-4 .card .card-body {
+  padding: 0 1rem;
+}
+
+.section-6 .col-md-4 .card img {
+  width: 48%;
+  border-radius: 250px;
+}
+
+.footer {
+  color: white;
+  padding: 6rem 4rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.footer .input-box input {
+  padding: 0.5rem 5rem 0.5rem 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.footer .links a {
+  margin: 0 0.7rem 0 0;
+}
+
+.footer .links a i {
+  font-size: 1.5rem;
+  color: blanchedalmond;
+  transition: .2s ease-in-out;
+}
+
+.footer .links a i:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=styles.css.map */

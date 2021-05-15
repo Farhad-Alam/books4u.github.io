@@ -1,0 +1,22 @@
+.section-6 {
+  .col-md-4 {
+
+    @include respond(lg) {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      .card-body {
+        padding: 0 1rem;
+
+      }
+      img {
+        width: 48%;
+        border-radius: 250px;
+      }
+    }
+  }
+}
